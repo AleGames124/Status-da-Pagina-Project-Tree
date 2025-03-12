@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topbar {
+    width: 100%;
+    margin: 0px 0px;
+    background-color: rgb(126, 76, 0);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgb(126, 76, 0);
+    text-align: center;
+}
+
+.fonte {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.imgPerfil {
+    width: 50px;
+    margin: 30px auto;
+    display: block;
+}
+
+.titulo{
+    text-align: center;   
+}
+
+.topbarnone {
+    color: rgb(255, 255, 255);
+    height: 25px;
+    display: inline-table;
+    text-decoration: none;
+}
+
+.topbarbotao {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    padding: 7px 7px;
+}
+
+.topbarbotaoon {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(254, 153, 0);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 7px;
+}
+
+.topbarbotao:hover {
+    background: rgb(178, 107, 0);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 7px;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+input:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(105, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+input:focus {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(133, 22, 22);
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.error{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 9, 9);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+fieldset{
+    border: none;
+}
+
+.imgLoading {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 211px;
+}
+
+.list {
+    font-size: 75%;
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: rgb(175, 105, 0);
+    display: inline-table;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.listbutton {
+    display: inline-flex;
+}
+
+
+select {
+    background: rgb(194, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 7px;
+}
+
+select:hover {
+    background: rgb(49, 5, 5);
+    border: 0px;
+}
+
+select:focus {
+    background: rgb(66, 11, 11);
+}
+
+button {
+    background: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 7px;
+}
+
+button:hover {
+    background: rgb(211, 127, 0);
+    border: 0px;
+}
+
+.listbutton {
+    display: inline-flex;
+}
+
+.socialmedia {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.socialmedia:hover {
+    height: 100%;
+    color: rgb(255, 0, 0);
+}
+
+.buttoncss {
+    text-decoration: none;
+    background: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 7px;
+}
+
+.buttoncss:hover {
+    background: rgb(211, 127, 0);
+    border: 0px;
+}
